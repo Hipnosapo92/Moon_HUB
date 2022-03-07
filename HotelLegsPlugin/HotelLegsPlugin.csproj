@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Proyecto\vstudio\moonhotels-hub-master\MoonHotels_HUB\MoonHotels_HUB\Plugins</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelLegsPlugin_DTO\HotelLegsPlugin_DTO.csproj" />
+    <ProjectReference Include="..\HUB_Interfaces\MoonHotels_HUB_Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

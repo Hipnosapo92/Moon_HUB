@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoonHotels_HUB_Service\MoonHotels_HUB_Service.csproj" />
+    <ProjectReference Include="..\MoonHotel_HUB_DTO\MoonHotels_HUB_DTO.csproj" />
+  </ItemGroup>
+
+</Project>
